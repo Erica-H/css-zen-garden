@@ -5,9 +5,10 @@
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
 
 body {
-    background: darkred;
+    background: #670000;
     color: peru;
     font-family: 'PT Serif', serif;
+    margin: 0;
 }
 
 h1, h2 {
@@ -15,10 +16,18 @@ h1, h2 {
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 4em;
+    text-align: center;
 }
 
-/*Typography*/
+/*Positioning*/
+
+/*highlight - command/control e - adjust color and transparency*/
+header {
+    position: fixed;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.33);
+}
 
 
 /*Me messing around disregard*/
@@ -29,8 +38,10 @@ a:link {
 
 a:hover {
     color: gold;
+    font-size: 17px;
 }
 
 a:visited {
     color: sandybrown;
 }
+

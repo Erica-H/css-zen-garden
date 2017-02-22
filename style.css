@@ -1,3 +1,36 @@
+
+/*Global Styling*/
+
+@import url('https://fonts.googleapis.com/css?family=PT+Serif');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
 body {
-    background: coral;
+    background: darkred;
+    color: peru;
+    font-family: 'PT Serif', serif;
+}
+
+h1, h2 {
+    font-family: 'Dancing Script', cursive;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+/*Typography*/
+
+
+/*Me messing around disregard*/
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gold;
+}
+
+a:visited {
+    color: sandybrown;
 }

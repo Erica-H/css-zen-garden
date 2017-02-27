@@ -23,11 +23,35 @@ h1 {
 /*Positioning*/
 
 /*highlight - command/control e - adjust color and transparency*/
+/* commenting for now
 header {
     position: fixed;
     width: 100%;
     background: rgba(0, 0, 0, 0.33);
 }
+*/
+
+/*Layout?*/
+.page-wrapper {
+    background: rgba(128, 0, 128, 0.49);
+    width: 90%;
+    margin: 0 auto;
+}
+
+#zen-intro {
+    background: #000;
+}
+
+#zen-supporting {
+    background: #fff;
+}
+
+.sidebar {
+    background: navy;
+}
+
+
+
 
 
 /*Me messing around disregard*/
@@ -45,3 +69,37 @@ a:visited {
     color: sandybrown;
 }
 
+/*Media Queries paste in*/
+/* Mobile: 320px = 20em */
+@media screen and (min-width: 20em) { 
+
+  /* Diagnostic Styling. Delete When Done. */
+  body:before {
+       background: yellow;
+       content: "Mobile Size";
+  }
+  
+}
+
+/* Tablet:  768px = 160em */
+@media screen and (min-width: 48em)  {
+
+  /* Diagnostic Styling. Delete When Done. */
+  body:before {
+       background: yellow;
+       content: "Tablet Size";
+  }
+
+}
+
+/* Desktop: 1280px = 80em */
+@media screen and (min-width: 80em) { 
+  
+  /* Diagnostic Styling. Delete When Done. */
+  body:before {
+       background: yellow;
+       content: "Desktop Size";
+  }
+
+}
+/*Nothing goes below this line!!!*/
